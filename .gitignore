@@ -4,4 +4,3 @@ rsrc
 dry-run.yaml
 kubectl*
 OWNERS
-values.yaml
