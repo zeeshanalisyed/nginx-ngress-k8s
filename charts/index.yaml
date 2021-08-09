@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - Fix chart-releaser action
+    apiVersion: v2
+    appVersion: 0.41.2
+    created: "2021-08-09T13:46:17.689904256+04:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 205134c69c63158c0beb1356e0aec4603ff62a768ad7b45f81f7d8bad6f70247
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    type: application
+    urls:
+    - ingress-nginx-3.15.2.tgz
+    version: 3.15.2
+generated: "2021-08-09T13:46:17.678089063+04:00"
