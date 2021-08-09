@@ -1,0 +1,19 @@
+--- 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata: 
+  annotations: 
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: zlog360-ingress-resource
+spec: 
+  rules: 
+    - host: k8s.zlog360.com
+      http:
+        paths:
+          -
+            backend:
+              service:
+                name: srvc_name
+                port:
+                  number: 443
+            pathType: ImplementationSpecific
