@@ -8,7 +8,7 @@
 # fullnameOverride:
 
 controller:
-  name: controller.insu.ch
+  name: controller
   image:
     repository: k8s.gcr.io/ingress-nginx/controller
     tag: "v0.41.2"
@@ -69,7 +69,6 @@ controller:
   ## Name of the ingress class to route through this controller
   ##
   ingressClass: nginx
-
   # labels to add to the pod container metadata
   podLabels: {}
   #  key: value
